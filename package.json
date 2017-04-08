@@ -1,0 +1,35 @@
+{
+  "name": "liribot",
+  "version": "1.0.0",
+  "description": "node project using CLI to retrieve data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SwiftMike/liriBot.git"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "liri",
+    "twitter",
+    "spotify"
+  ],
+  "author": "Michael Olie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SwiftMike/liriBot/issues"
+  },
+  "homepage": "https://github.com/SwiftMike/liriBot#readme",
+  "dependencies": {
+    "file-system": "^2.2.2"
+  },
+  "devDependencies": {
+    "omdb": "^0.7.0",
+    "require": "^2.4.20",
+    "spotify": "^0.3.0",
+    "twitter": "^1.7.0"
+  }
+}
